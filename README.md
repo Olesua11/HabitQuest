@@ -1,44 +1,78 @@
-# HabitQuest
+# HabitQuest 
 
-HabitQuest is a gamified Android habit tracker built with Kotlin and Jetpack Compose.
+**HabitQuest** — Android-приложение для отслеживания привычек с элементами RPG.
 
-## Features
-- Create custom daily habits/quests
-- Easy / Medium / Hard reward tiers
-- Earn XP and coins for completing habits
-- Automatic levels and ranks
-- Daily completion state
-- Streak calculation
-- Achievement gallery
-- Statistics dashboard
-- Local Room database
-- Dark RPG-inspired Material 3 interface
-- Bottom navigation
+Вместо обычного списка задач пользователь получает опыт, монеты, повышает уровень, поддерживает серии выполнения привычек и открывает достижения.
 
-## Stack
+Главная идея проекта — превратить повседневные привычки в небольшие игровые квесты.
+
+##  Возможности
+
+- создание и управление привычками;
+- выполнение привычек с начислением XP;
+- получение монет;
+- система уровней;
+- streak — серии дней без пропусков;
+- выбор сложности привычки;
+- система достижений;
+- профиль пользователя;
+- статистика прогресса;
+- локальное хранение данных;
+- тёмный интерфейс в RPG-стилистике.
+
+##  Скриншоты
+
+<p align="center">
+  <img src="screenshots/screen1.png" width="180"/>
+  <img src="screenshots/screen2.png" width="180"/>
+  <img src="screenshots/screen3.png" width="180"/>
+  <img src="screenshots/screen4.png" width="180"/>
+  <img src="screenshots/screen5.png" width="180"/>
+</p>
+
+##  Как работает приложение
+
+Каждая привычка воспринимается как небольшой квест.
+
+За выполнение пользователь получает:
+
+- XP;
+- монеты;
+- прогресс серии;
+- продвижение к достижениям.
+
+Награда зависит от сложности привычки.
+
+По мере накопления опыта пользователь повышает уровень.
+
+##  Технологии
+
 - Kotlin
 - Jetpack Compose
 - Material 3
-- MVVM-style ViewModel state
-- Room
-- Kotlin Coroutines + Flow
+- MVVM
+- Room Database
+- Kotlin Coroutines
+- Flow
 - Navigation Compose
+- Gradle Kotlin DSL
 
-## Open in Android Studio
-1. Extract the ZIP.
-2. Open the `HabitQuest` folder in Android Studio.
-3. Use JDK 17 for Gradle.
-4. Let Android Studio finish Gradle Sync.
-5. Run on an emulator or Android device with Android 8.0+ (API 26+).
+## Архитектура
 
-## Build configuration
-- AGP 8.9.3
-- Gradle 8.11.1
-- Kotlin 2.1.20
-- compileSdk / targetSdk 35
-- minSdk 26
+Проект построен по MVVM-подходу.
 
-The app seeds four demo habits on first launch so the interface is not empty.
+```text
+data
+├── database
+├── dao
+├── entities
+└── repository
 
-### If Android Studio asks for a Gradle distribution
-This archive intentionally contains only project sources/build scripts. Android Studio can configure Gradle when the project is opened. Select Gradle 8.11.1 and JDK 17 if prompted. After the first successful sync, Android Studio can generate/use the wrapper normally.
+ui
+├── home
+├── achievements
+├── statistics
+└── profile
+
+navigation
+viewmodel
