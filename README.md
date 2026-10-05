@@ -50,7 +50,6 @@
 ##  Технологии
 
 - Kotlin
-- Jetpack Compose
 - Material 3
 - MVVM
 - Room Database
