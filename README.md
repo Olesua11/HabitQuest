@@ -23,11 +23,11 @@
 ##  Скриншоты
 
 <p align="center">
-  <img src="screenshots/screen1.png" width="180"/>
-  <img src="screenshots/screen2.png" width="180"/>
-  <img src="screenshots/screen3.png" width="180"/>
-  <img src="screenshots/screen4.png" width="180"/>
-  <img src="screenshots/screen5.png" width="180"/>
+  <img src="2c7amd7_NJjwGbIQsKmsqwBxPWqIpWvnZTHIqVoM6IVzuecxKMYDSIRFYaTau0HuFjgC81urPCVe3fEMzvtYtfLL.jpg" width="180"/>
+  <img src="dCt0FcB7IwqaqScCppreY8h7JNREiz6bU0et_dNws9iIOu5NjiFIEKdkaBJqfqYnDzUBezLhK36bASbTUEs2PhMA.jpg" width="180"/>
+  <img src="KcmpcBPh65K7V2zqkieNYgN-3QwNWSVP2eHUApWAGv2OPYPh3BIFhjo3IkNyoycU2y02rpeEauxqK5uPnz-rOZ6EhPmcVg.jpg" width="180"/>
+  <img src="N3-UhiA0Nh5oL7hgXxsZVbKyEHTTyUxT1Ig2ODUrlSwADQRIKT1d7vf42BhtmaloYj0z6KUIIQ9jmEdX4CZ8AYe5.jpg" width="180"/>
+  <img src="qyFSe1c5A_K_98slet2O--5IYGxVQN6GwcqAvq9OaozIVkLqkeA0P5PdTtWrXPC1Ks5s3Hw6oRv8Lr_2wl_SBfyM.jpg" width="180"/>
 </p>
 
 ##  Как работает приложение
